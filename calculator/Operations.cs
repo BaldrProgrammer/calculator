@@ -61,6 +61,15 @@ public class Addition : IMathOperation
         public double Calculate(double a, double b) => Math.Pow(a, b);
     }
 
+
+    public class SinOperation : IMathOperation
+    {
+        public string Symbol => "sin";
+        public string Description => "Sinus";
+        public double Calculate(double a, double b) => Math.Sin(a);
+    }
+
+
     // GŁÓWNA KLASA KALKULATORA - ZASADA JEDNEJ ODPOWIEDZIALNOŚCI (SRP)
     public class Calculator
     {
