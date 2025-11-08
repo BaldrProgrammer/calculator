@@ -76,7 +76,7 @@ namespace AdvancedCalculator
             Console.Write("Podaj symbol operacji: ");
             string op = Console.ReadLine();
            
-            if (op == "sqrt" || op == "abs")
+            if (op == "sqrt" || op == "abs" || op == "sin" ||  op == "cos" ||   op == "tan")
             {
                 double result = calculator.PerformOperation(num1, 0, op);
                 Console.WriteLine($"\nWynik: {result}");

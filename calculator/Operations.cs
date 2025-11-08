@@ -103,6 +103,9 @@ public class Addition : IMathOperation
             RegisterOperation(new Multiplication());
             RegisterOperation(new Division());
             RegisterOperation(new PowerOperation());
+            RegisterOperation(new SinOperation());
+            RegisterOperation(new CosOperation());
+            RegisterOperation(new TanOperation());
         }
        
         // REJESTRACJA NOWYCH OPERACJI - OTWARTE NA ROZSZERZENIA (OCP)
