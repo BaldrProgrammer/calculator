@@ -70,6 +70,14 @@ public class Addition : IMathOperation
     }
 
 
+    public class CosOperation : IMathOperation
+    {
+        public string Symbol => "cos";
+        public string Description => "Cosus";
+        public double Calculate(double a, double b) => Math.Cos(a);
+    }
+
+
     // GŁÓWNA KLASA KALKULATORA - ZASADA JEDNEJ ODPOWIEDZIALNOŚCI (SRP)
     public class Calculator
     {
