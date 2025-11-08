@@ -66,7 +66,7 @@ public class Addition : IMathOperation
     {
         public string Symbol => "sin";
         public string Description => "Sinus";
-        public double Calculate(double a, double b) => Math.Sin(a);
+        public double Calculate(double a, double b) => Math.Sin(a * Math.PI / 180);
     }
 
 
@@ -74,7 +74,7 @@ public class Addition : IMathOperation
     {
         public string Symbol => "cos";
         public string Description => "Cosinus";
-        public double Calculate(double a, double b) => Math.Cos(a);
+        public double Calculate(double a, double b) => Math.Cos(a * Math.PI / 180);
     }
 
 
@@ -82,7 +82,7 @@ public class Addition : IMathOperation
     {
         public string Symbol => "tan";
         public string Description => "Tangens";
-        public double Calculate(double a, double b) => Math.Tan(a);
+        public double Calculate(double a, double b) => Math.Tan(a * Math.PI / 180);
     }
 
 
