@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{718E15C9-CE06-423D-98E8-2CF9B65CDD02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{718E15C9-CE06-423D-98E8-2CF9B65CDD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718E15C9-CE06-423D-98E8-2CF9B65CDD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718E15C9-CE06-423D-98E8-2CF9B65CDD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718E15C9-CE06-423D-98E8-2CF9B65CDD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
