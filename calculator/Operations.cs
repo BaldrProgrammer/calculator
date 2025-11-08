@@ -86,6 +86,14 @@ public class Addition : IMathOperation
     }
 
 
+    public class AverageOperation : IMathOperation
+    {
+        public string Symbol => "avg";
+        public string Description => "srednia liczba";
+        public double Calculate(double a, double b) => (a + b) / 2;
+    }
+
+
     // GŁÓWNA KLASA KALKULATORA - ZASADA JEDNEJ ODPOWIEDZIALNOŚCI (SRP)
     public class Calculator
     {
@@ -106,6 +114,7 @@ public class Addition : IMathOperation
             RegisterOperation(new SinOperation());
             RegisterOperation(new CosOperation());
             RegisterOperation(new TanOperation());
+            RegisterOperation(new AverageOperation());
         }
        
         // REJESTRACJA NOWYCH OPERACJI - OTWARTE NA ROZSZERZENIA (OCP)
