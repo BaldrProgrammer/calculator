@@ -55,12 +55,6 @@ namespace AdvancedCalculator
     */
 
     // INTERFEJS OPERACJI MATEMATYCZNYCH - WZORZEC STRATEGII
-    public interface IMathOperation
-    {
-        string Symbol { get; }
-        string Description { get; }
-        double Calculate(double a, double b);
-    }
 
     // PODSTAWOWE OPERACJE - IMPLEMENTACJA INTERFEJSU
     public class Addition : IMathOperation

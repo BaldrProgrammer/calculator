@@ -1,0 +1,15 @@
+/home/administrator/school/calculator/calculator/bin/Debug/net9.0/calculator
+/home/administrator/school/calculator/calculator/bin/Debug/net9.0/calculator.deps.json
+/home/administrator/school/calculator/calculator/bin/Debug/net9.0/calculator.runtimeconfig.json
+/home/administrator/school/calculator/calculator/bin/Debug/net9.0/calculator.dll
+/home/administrator/school/calculator/calculator/bin/Debug/net9.0/calculator.pdb
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.AssemblyInfoInputs.cache
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.AssemblyInfo.cs
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.csproj.CoreCompileInputs.cache
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.sourcelink.json
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.dll
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/refint/calculator.dll
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.pdb
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/calculator.genruntimeconfig.cache
+/home/administrator/school/calculator/calculator/obj/Debug/net9.0/ref/calculator.dll
