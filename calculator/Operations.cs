@@ -73,8 +73,16 @@ public class Addition : IMathOperation
     public class CosOperation : IMathOperation
     {
         public string Symbol => "cos";
-        public string Description => "Cosus";
+        public string Description => "Cosinus";
         public double Calculate(double a, double b) => Math.Cos(a);
+    }
+
+
+    public class TanOperation : IMathOperation
+    {
+        public string Symbol => "tan";
+        public string Description => "Tangens";
+        public double Calculate(double a, double b) => Math.Tan(a);
     }
 
 
